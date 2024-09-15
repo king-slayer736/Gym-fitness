@@ -1,0 +1,103 @@
+/* styles.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0 1rem;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #ff6347;
+}
+
+main {
+    padding: 2rem;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+.gym-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gym {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 1rem;
+    padding: 1rem;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.gym img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .gym {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .gym {
+        width: 100%;
+    }
+}
+
+.membership, .contact, .about, .thankyou {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.membership h2, .contact h2, .about h2, .thankyou h2 {
+    text-align: center;
+    color: #333;
+}
+
+.membership p, .contact p, .about p, .thankyou p {
+    text-align: center;
+    color: #666;
+}
